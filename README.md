@@ -8,7 +8,7 @@ A simple utility to dynamically and cleanly add directories to Python's `sys.pat
 You can install `PathMaster` directly from GitHub using `pip`:
 
 ```bash
-pip install git+[https://github.com/faisaltareque/PathMaster.git](https://github.com/faisaltareque/PathMaster.git)
+pip install git+https://github.com/faisaltareque/PathMaster.git
 ```
 
 ---
