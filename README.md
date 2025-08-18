@@ -44,3 +44,23 @@ pathmaster.add_parent(levels=1)
 If no levels argument is provided, it defaults to 1 (the immediate parent).
 
 ---
+
+### List Files in a Directory
+
+Use `pathmaster.list_files()` function to view the contents of a directory.
+
+```python
+import pathmaster
+
+# List files in the current directory
+files = pathmaster.list_files('/path/to/directory')
+print(files)
+# Output: ['main.py', 'helper.txt', 'data.csv']
+
+# List files with their absolute paths
+files_absolute = pathmaster.list_files('.', absolute_path=True)
+print(files_absolute)
+# Output: ['/full/path/to/project/main.py', '/full/path/to/project/helper.txt', '/full/path/to/project/data.csv']
+```
+
+---
